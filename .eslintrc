@@ -11,10 +11,8 @@
     "es6": true
   },
   "rules": {
-    "arrow-parens": [
-      "error",
-      "as-needed"
-    ],
+    "arrow-parens": [2,"as-needed"],
+    "linebreak-style": 0,
     "func-names": "off",
     "global-require": "off",
     "no-use-before-define": 0,
@@ -23,16 +21,13 @@
     "react/jsx-no-bind": 2,
     "react/require-default-props": 0,
     "react/no-find-dom-node": 0,
+    "react/prop-types": 1,
     "react/jsx-filename-extension": 0,
-    "space-before-function-paren": [
-      2,
-      "never"
-    ],
+    "space-before-function-paren": [2,"never"],
     "import/prefer-default-export": 0,
     "jsx-a11y/no-static-element-interactions": 0,
     "jsx-a11y/label-has-for": 0,
-    "import/no-extraneous-dependencies": [
-      "error",
+    "import/no-extraneous-dependencies": ["error",
       {
         "devDependencies": true,
         "optionalDependencies": false,
