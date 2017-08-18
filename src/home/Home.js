@@ -2,7 +2,10 @@ import React, { Component } from 'react';
 import request from '../tools/request';
 import { ARTICLES_QUERY } from '../tools/queries';
 
+import './Home.css';
+
 import LayoutDefault from '../layout/LayoutDefault';
+import CardContainer from './cardcontainer/CardContainer';
 
 class Home extends Component {
   // definition
@@ -24,9 +27,8 @@ class Home extends Component {
   render() {
     return (
       <LayoutDefault>
-        <div className="Body">
-          <h2>Billin code challeng</h2>
-          <pre>{JSON.stringify(this.state.articles, null, 2)}</pre>
+        <div className="Home">
+          <CardContainer cards={this.state.articles} />
         </div>
       </LayoutDefault>
     );

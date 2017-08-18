@@ -1,0 +1,23 @@
+.Header {
+    width: 100%;
+    background-color: #03A9F4;
+    padding: 20px 0;
+}
+
+.Header__container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.Header__container__logo {
+    width: 145px;
+}
+
+.Header__container__menu-box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}

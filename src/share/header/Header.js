@@ -1,19 +1,18 @@
-import React, { Component } from 'react';
+import React from 'react';
+import './Header.css';
+import logo from './img/logotipo-billin@2x.png';
 
-class Header extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-    };
-  }
-
-  render() {
-    return (
+const Header = props => (
+  <div className="container-fluid Header">
+    <div className="container Header__container">
       <div>
-        Header
+        <img src={logo} alt="logotipo Billin" className="Header__container__logo" />
       </div>
-    );
-  }
-}
+      <div className="Header__container__menu-box">
+        Aun no implementado
+      </div>
+    </div>
+  </div>
+);
 
 export default Header;

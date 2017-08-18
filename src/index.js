@@ -2,6 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './home/Home';
 
+import './bootstrap.min.css';
+
 const rootElement = document.getElementById('root');
 
 ReactDOM.render(
